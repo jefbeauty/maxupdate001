@@ -1,0 +1,351 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteJef';
+    src: url("../_fonts/Lobster-Regular.ttf");
+}
+
+
+
+
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(72deg,#3DEBB0 1% , #8956F3 99%);
+
+   /* background-color: #024ef1;*/
+
+}
+
+
+.interface {
+
+    width: 1350px;
+    background-color: white;
+    margin: 20px;
+    padding: 200px 5px 2000px 43px;
+    box-shadow: -20px 1px 4px 1px rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+
+#cabecalho {
+
+    width: 1300px;
+    border-bottom: 2px solid #5d5d5d;
+    scale: 100%;
+    position: absolute;
+    top: 25%;
+    left: 90px;
+}
+
+
+
+ h1 {
+    font-family: Arial;
+    font-size: 37px;
+    color: #010181;
+    position: absolute;
+    left: 600px;
+    top: 7%;
+
+
+}
+
+
+
+
+
+#cabecalho img  {
+
+    position: absolute;
+    top: 10%;
+    left: -70px;
+    margin: -290px 10px 20px 5px;
+
+}
+
+#cabecalho2 {
+
+    scale: 10%;
+    position: absolute;
+    top:-170px;
+    left: 850px;
+
+}
+
+#cabecalho3 {
+
+    scale: 10%;
+    position: absolute;
+    top:-170px;
+    left: 950px;
+}
+
+#menu {
+
+    background-color: #5d5d5d;
+}
+
+
+
+#menu   {
+    display: block;
+
+
+
+}
+
+#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 143px;
+    background-color: #bebebe;
+    position: absolute;
+    padding: 10px;
+    left: 20px;
+    width: 1380px;
+
+}
+
+
+#menu li {
+
+    display: inline-block;
+    margin: 1px;
+    padding: 2px;
+    transition: background-color 2s;
+    background-color: #009dff;
+    border: 1px solid #009dff;
+    border-radius: 20px;
+
+}
+
+
+#menu li :hover {
+
+    background-color: #0fa7fa;
+    transition: 0s;
+
+}
+
+
+
+a { color: #ffffff;
+    font: bolder 19px Arial, Verdana;
+    text-decoration:none;
+
+
+
+}
+
+
+
+#layout {
+
+    border: 2px solid #1976e1;
+
+    padding: 20px;
+    background-color: grey;
+
+
+
+}
+
+
+#body {
+    width: 500px;
+    font-family: FonteJef;
+    font-size: 24px;
+    text-indent: 20px;
+    position: absolute;
+    top:57%;
+    background-color: #bebebe;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+#MotorB {
+    display: flex;
+    position: absolute;
+    scale: 30%;
+    top: -15px;
+    right: -150px;
+    border: 2px solid black;
+    border-radius: 30px;
+    border-color: grey;
+
+
+}
+/*
+footer.footer
+
+{
+    position: relative;
+    background-color: #1976e1;
+    padding: 200px 5px 5px 43px;
+    top: 2000px;
+}
+
+ */
+
+footer#rodape {
+   position: absolute;
+    left: 1000px;
+    border-top: 2px solid black;
+   top:2000px;
+
+}
+
+    /*
+    font-family: Arial;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+*/
+
+
+
+
+
+/*
+
+.content {
+
+    width: 1500px;
+    height: 314px;
+    border-radius: 40px;
+    position: absolute;
+    /*overflow: hidden;*/
+  /*  transform: translate(10%,5%);
+
+}
+
+.navigation {
+
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+
+
+
+}
+.bar {
+
+    width: 70px;
+    height: 25px;
+    border: 1px solid black;
+    margin: 6px;
+    transform: translate(-600%,-900%);
+    cursor: pointer;
+    transition: .4s;
+}
+
+
+.bar:hover {
+
+    background-color: white;
+
+
+}
+
+input {
+
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+
+}
+.slide {
+    width: 20%;
+    transition: .6s;
+
+}
+.slide img {
+    width: 70%;
+    height: 110%;
+
+
+}
+
+#slide1:checked ~.s1 {
+
+    margin-left: 0;
+
+}
+
+#slide2:checked ~.s1 {
+
+    margin-left: -20%;
+
+}
+
+#slide3:checked ~.s1 {
+
+    margin-left: -40%;
+}
+
+
+#slide4:checked.s1 {
+    margin-left:-90%;
+}
+*/
+/*
+
+h2 {
+   idth: 400px;
+   left: 400px;
+    position: absolute;
+    top:80%;
+}
+
+*/
+
+
+/*
+#principal {
+    display: block;
+    width: 150px;
+    float:right;
+     top: 200%;
+    position: absolute;
+
+
+
+}
+
+ */
+/*
+#lado {
+
+    display: block;
+    width: 200px;
+    float: right;
+
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
